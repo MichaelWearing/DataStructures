@@ -10,8 +10,7 @@ const hash = (key, size) => {
   for (let i = 0; i < key.length; i++) {
     hashedKey = key.charCodeAt(i);
   }
-
-  console.log(hashedKey % size)
+  
   return hashedKey % size;
 };
 
@@ -52,7 +51,7 @@ hashTable.insert("lita", "jupiter");
 hashTable.insert("mina", "venus");
 hashTable.insert("darien", "tuxedo mask");
 
-hashTable.remove("darien")
-hashTable.remove("mina")
+//hashTable.remove("darien")
+//hashTable.remove("mina")
 
-//console.log(hashTable)
+console.log(hashTable)
